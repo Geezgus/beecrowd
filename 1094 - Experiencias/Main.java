@@ -2,10 +2,10 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws IOException { 
+    public static void main(String[] args) throws IOException {
         Scanner input = new Scanner(System.in);
 
-        int rabbits = 0; 
+        int rabbits = 0;
         int rats = 0;
         int frogs = 0;
 
@@ -37,5 +37,5 @@ public class Main {
 
         System.out.printf("Percentual de sapos: %.2f %c\n",
           (double) (frogs * 100) / quantity, '%');
-    } 
+    }
 }

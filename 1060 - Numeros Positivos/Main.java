@@ -19,6 +19,6 @@ public class Main {
                 positivesCount ++;
         }
 
-        System.out.println(positivesCount+" valores positivos"); 
+        System.out.println(positivesCount+" valores positivos");
     }
 }

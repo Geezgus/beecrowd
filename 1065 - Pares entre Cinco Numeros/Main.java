@@ -11,7 +11,7 @@ public class Main {
             int value = input.nextInt();
 
             if (value % 2 == 0)
-                amountOfPairs++;            
+                amountOfPairs++;
         }
 
         System.out.println(amountOfPairs+" valores pares");
