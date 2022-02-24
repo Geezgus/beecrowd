@@ -19,8 +19,8 @@ public class Main {
 
   private static void validateInput(int operand) throws RuntimeException {
     if (operand <= 0)
-      throw new RuntimeException("n too small.");
+      throw new RuntimeException("operand too small.");
     else if (operand > 13)
-      throw new RuntimeException("n too large.");
+      throw new RuntimeException("operand too large.");
   }
 }
